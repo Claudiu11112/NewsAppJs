@@ -1,46 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NewsApp</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="shortcut icon" href="fav.ico">
-</head>
+    <link rel="shortcut icon" href="favicon.ico" />
+  </head>
 
-<body onload="loadNews()">
+  <body onload="loadNews()">
     <div class="app">
-        <div class="header">
-            <h1 class="new">
-                <strong class="news">News</strong>
-                <span class="apptxt">App</span>
-            </h1>
-            <div class="items2">
-                <h4 class="contact">contact</h4>
-                <input class="search" type="search" placeholder="Search" />
-            </div>
+      <div class="header">
+        <h1 class="new">
+          <strong class="news">News</strong>
+          <span class="apptxt">App</span>
+        </h1>
+        <div class="items2">
+          <h4 class="contact">contact</h4>
+          <input class="search" type="search" placeholder="Search" />
         </div>
+      </div>
 
-        <div id="cardNew">
-
-        </div>
-        <div class="footer">
-            <hr></hr>
-            <p> &copy;
-                <script type="text/javascript">
-                    document.write(new Date().getFullYear());
-                </script> Copyright:
-                <a href="#!"> News App.com </a>
-            </p>
-        </div>
+      <div id="cardNew"></div>
+      <div class="footer">
+        <hr />
+        <p>
+          &copy;
+          <script type="text/javascript">
+            document.write(new Date().getFullYear());
+          </script>
+          Copyright:
+          <a href="#!"> News App.com </a>
+        </p>
+      </div>
     </div>
-    <script type="text/javascript" src="script.js"></script> 
-</body>
-
+    <script type="text/javascript" src="script.js"></script>
+  </body>
 </html>
-
 
 <!-- <div class="card">
     <img class="img" onclick="txtAlert()" alt="news" src="https://source.unsplash.com/collection/${1}/300x500" />
