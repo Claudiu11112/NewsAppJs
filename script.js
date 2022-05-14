@@ -27,7 +27,7 @@ function txtAlert() {
     let id;
     window.onclick = (e) => {
         id = e.target.id;
-        // alert(arr[id].title);
+        // alert(id);
 
         document.getElementById("cardNew").innerHTML = `<div class="card2" >
     <img class="img" onclick="loadNews()" alt="news" id="${id}"
